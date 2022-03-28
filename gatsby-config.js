@@ -14,6 +14,12 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
+    {
+      resolve: 'gatsby-source-graphcms',
+      options:{
+        endpoint:"https://api-ca-central-1.graphcms.com/v2/ckw9qwyik1p7b01xqbjr30d6h/master",
+      }
+    },
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",

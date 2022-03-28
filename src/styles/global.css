@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input,
+  textarea {
+    @apply border ring-secondAccent rounded-sm ring-2 focus:outline-none focus:ring-2 focus:ring-secondAccent focus:border-transparent h-9 text-secondAccent;
+  }
+
+  h3 {
+    @apply text-xl font-medium;
+  }
+  p a {
+    @apply font-bold underline hover:text-mainAccent;
+  }
+  .portfolioProse a {
+    @apply hover:text-yellowAccent
+  }
+  ul {
+    list-style-type: square;
+    margin-left: 1.5em;
+  }
+  .sidebar {
+    @apply h-screen sticky top-0  w-1/6 flex-col hidden lg:block;
+    aspect-ratio: 160/961;
+    background-repeat: no-repeat;
+    background-position: 0% 75%;
+    background-size: cover;
+    background-image: url("../images/layered-waves-haikei.svg");
+    @apply bg-secondAccent;
+  }
+}
