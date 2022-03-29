@@ -1,9 +1,7 @@
 import * as React from "react"
 import Sidebar from "../components/sidebar/Sidebar"
 import MainView from "../components/mainView/MainView";
-import { Link } from "gatsby";
 import Layout from "../components/layouts/layout";
-import { Helmet } from "react-helmet";
 
 // styles
 

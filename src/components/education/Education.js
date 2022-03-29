@@ -1,5 +1,4 @@
 import React from "react";
-import Experience from "../experience/Experience";
 import { graphql, useStaticQuery } from "gatsby";
 
 export default function Education() {

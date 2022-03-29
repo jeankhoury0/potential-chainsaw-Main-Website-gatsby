@@ -18,10 +18,10 @@ export default function Experience() {
       }
     }
   `);
-  console.log(data.allGraphCmsExperience.nodes);
+  console.log(data.allGraphCmsExperience?.nodes);
   return (
     <div data-testid="experience">
-      {data.allGraphCmsExperience.nodes.map((xp) => (
+      {data.allGraphCmsExperience?.nodes.map((xp) => (
         <div key={xp.id}>
           <h3 className="text-xl font-medium"> {xp.jobTitle}</h3>
           <span
